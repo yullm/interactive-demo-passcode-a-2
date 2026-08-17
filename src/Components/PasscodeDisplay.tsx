@@ -33,12 +33,12 @@ export const PasscodeDisplay = () => {
                     ...SequenceStyles.center,
                     width:'15vw',
                     height:'15vw',
-                    fontSize:'5vw',
+                    fontSize:'8vw',
                     borderColor: value === '' ? SequenceStyles.levelOne : SequenceStyles.levelThree,
                     color:SequenceStyles.levelThree,
                     fontWeight:800,
                     textAlign:'center',
-                    transform: value === '' ? undefined : 'translateY(-0.5vw)',                    
+                    transform: value === '' ? 'translateY(0.5vw)' : 'translateY(0)',                    
                     transition:'all 250ms ease',
                 }}>{value}</div>
             ))}

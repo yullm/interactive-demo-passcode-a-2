@@ -3,6 +3,7 @@ import { SequenceStyles, useSequence } from "../Context/SequenceContext";
 import { PasscodeDisplay } from "./PasscodeDisplay";
 import { PasscodeEntry } from "./PasscodeEntry";
 import { ProvenceHook, useProvence } from "../Provence/ProvenceHooks";
+import { MazeA } from "./Maze";
 
 export const Container = () => {
 
@@ -23,6 +24,7 @@ export const Container = () => {
             backgroundColor:SequenceStyles.levelZero,
             userSelect:'none',
         }}>
+            <MazeA></MazeA>
             <PasscodeDisplay></PasscodeDisplay>
         </div>
     );
