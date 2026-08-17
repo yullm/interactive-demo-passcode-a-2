@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { SequenceStyles, useSequence } from "../Context/SequenceContext";
 import { PasscodeDisplay } from "./PasscodeDisplay";
 import { ProvenceHook, useProvence } from "../Provence/ProvenceHooks";
-import { MazeA } from "./Maze";
+import { MazeA, MazeB } from "./Maze";
 
 export const Container = () => {
 
@@ -23,7 +23,7 @@ export const Container = () => {
             backgroundColor:SequenceStyles.levelZero,
             userSelect:'none',
         }}>
-            <MazeA></MazeA>
+            <MazeB></MazeB>
             <PasscodeDisplay></PasscodeDisplay>
         </div>
     );

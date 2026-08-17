@@ -77,7 +77,8 @@ export const SequenceStyles = {
     levelOne: '#8082a6',
     levelTwo: '#f24f13',
     levelThree: '#f2921D',
-    levelFour:'#F2C230',
+    levelFour:'#F2C230',    
+    levelFive:'#eacc72',
     center:{
         display:'flex',
         alignItems:'center',
